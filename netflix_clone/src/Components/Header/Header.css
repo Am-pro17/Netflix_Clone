@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+}
+.Header_wrapper{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #232020;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    height: 8.5vh;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+.Left_head{
+    width: 70%;
+    margin: 10px;
+}
+.Left_head>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+.Right_head{
+    margin-right: 30px;
+    width: 10%;
+}
+.Right_head>ul{
+display: flex;
+list-style: none;
+justify-content: space-between;
+margin-right: 10px;
+cursor: pointer;
+}
+
+.logo>img{
+    width: 5vw;
+}

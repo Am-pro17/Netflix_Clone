@@ -1,0 +1,21 @@
+.Footer{
+    background-color: rgb(23, 21, 21);
+    color: gray;
+}
+
+.Social_Media{
+    display: flex;
+    width: 300px;
+    padding: 20px;
+}
+.Social_Media div {
+    margin-left: 10px;
+}
+
+.copy{
+    font-size: 11px;
+}
+.Footer_Lists li {
+    list-style: none;
+
+}
