@@ -7,7 +7,7 @@ function Row() {
   return (
     <>
     <SingleRows type={requests.fetchTrading} title='Trending'/>
-    <SingleRows type={requests.fetchRomanceMovies} title='Anime'/>
+    <SingleRows type={requests.fetchRomanceMovies} title='Animation'/>
     <SingleRows type={requests.fetchActionMovies} title='Action'/>
     <SingleRows type={requests.fetchComedyMovies} title='Comedy'/>
     <SingleRows type={requests.fetchDocumentaries} title='Crime'/>
