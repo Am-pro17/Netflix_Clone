@@ -25,7 +25,7 @@ function Banner() {
         // }
         // )
 
-        fetch(`https://api.themoviedb.org/3${requests.fetchTrading}`)
+        fetch(`https://api.themoviedb.org/3${requests.fetchDocumentaries}`)
         .then((res)=>res.json())
         .then((data)=>{
             setTrending(data.results[random])
@@ -36,10 +36,10 @@ function truncate(str,n){
     return str?.length > n ? str.substr(0,n-1) + '...' : str
 }
 
-console.log(requests.fetchTrading);
+// console.log(requests.fetchNetflixOriginal);
 
 
-console.log(trend);
+// console.log(trend);
 
   return (
     <div className='banner' style={{backgroundImage: `url(https://image.tmdb.org/t/p/original/${trend.backdrop_path})`}}>

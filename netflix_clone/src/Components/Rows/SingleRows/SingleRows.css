@@ -1,0 +1,35 @@
+.movie_list_wrapper_outside{
+    background-color: rgb(47, 54, 52);
+    margin: 50px 0 20px 30px;
+    border-radius: 20px;
+}
+
+.movie_list_wrapper_outside h2{
+    color: aliceblue;
+    padding: 20px 0 0 20px;
+}
+
+
+.movie_list_wrapper{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 40px;
+}
+
+.movie_list_wrapper::-webkit-scrollbar{
+display: none;
+}
+.movie_list_wrapper:hover{
+    transform: scale(1.05);
+}
+
+.Single_image img{
+height: 300px;
+border-radius: 10px;
+
+}
+
+.movie_list{
+   margin-left: 10px; 
+}
